@@ -116,17 +116,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\.gitignore" />
-    <Content Include="packages.config" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="_bin_deployableAssemblies\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="app\admin\admin.html" />
     <Content Include="app\admin\admin.js" />
     <Content Include="app\app.js" />
@@ -148,25 +137,51 @@
     <Content Include="app\services\datacontext.js" />
     <Content Include="app\services\directives.js" />
     <Content Include="app\services\entityManagerFactory.js" />
+    <Content Include="App_Data\.gitignore" />
+    <Content Include="content\breeze.directives.css" />
+    <Content Include="content\customtheme.css" />
+    <Content Include="content\ie10mobile.css" />
+    <Content Include="content\images\AngularJS-small.png" />
+    <Content Include="content\images\breezelogo.png" />
+    <Content Include="content\images\icon.png" />
+    <Content Include="content\styles.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="index.html" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\angular-animate.js" />
+    <Content Include="Scripts\angular-animate.min.js" />
+    <Content Include="Scripts\angular-route.js" />
+    <Content Include="Scripts\angular-route.min.js" />
+    <Content Include="Scripts\angular-sanitize.js" />
+    <Content Include="Scripts\angular-sanitize.min.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\angular.min.js.map" />
+    <Content Include="Scripts\angular-route.min.js.map" />
+    <Content Include="Scripts\angular-animate.min.js.map" />
+    <Content Include="Scripts\angular-sanitize.min.js.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="_bin_deployableAssemblies\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="App_Data\CodeCamper.sdf" />
     <Content Include="ccfavicon.ico" />
     <Content Include="content\bootstrap-responsive.css" />
     <Content Include="content\bootstrap-responsive.min.css" />
     <Content Include="content\bootstrap.css" />
     <Content Include="content\bootstrap.min.css" />
-    <Content Include="content\breeze.directives.css" />
-    <Content Include="content\customtheme.css" />
     <Content Include="content\font-awesome-ie7.css" />
     <Content Include="content\font-awesome-ie7.min.css" />
     <Content Include="content\font-awesome.css" />
     <Content Include="content\font-awesome.min.css" />
     <Content Include="content\font\fontawesome-webfont.svg" />
-    <Content Include="content\ie10mobile.css" />
-    <Content Include="content\images\AngularJS-small.png" />
-    <Content Include="content\images\breezelogo.png" />
     <Content Include="content\images\glyphicons-halflings-white.png" />
     <Content Include="content\images\glyphicons-halflings.png" />
-    <Content Include="content\images\icon.png" />
     <Content Include="content\images\photos\aaron_skonnard.jpg" />
     <Content Include="content\images\photos\brad_green.jpg" />
     <Content Include="content\images\photos\colleen_papa.jpg" />
@@ -211,23 +226,8 @@
     <Content Include="content\font\fontawesome-webfont.ttf" />
     <Content Include="content\font\fontawesome-webfont.eot" />
     <Content Include="content\font\FontAwesome.otf" />
-    <Content Include="content\styles.css" />
     <Content Include="content\toastr.css" />
     <Content Include="content\toastr.less" />
-    <Content Include="favicon.ico" />
-    <Content Include="index.html" />
-    <Content Include="Scripts\angular-animate.js" />
-    <Content Include="Scripts\angular-animate.min.js" />
-    <Content Include="Scripts\angular-route.js" />
-    <Content Include="Scripts\angular-route.min.js" />
-    <Content Include="Scripts\angular-sanitize.js" />
-    <Content Include="Scripts\angular-sanitize.min.js" />
-    <Content Include="Scripts\angular.js" />
-    <Content Include="Scripts\angular.min.js" />
-    <Content Include="Scripts\angular.min.js.map" />
-    <Content Include="Scripts\angular-route.min.js.map" />
-    <Content Include="Scripts\angular-animate.min.js.map" />
-    <Content Include="Scripts\angular-sanitize.min.js.map" />
     <None Include="Scripts\breeze.intellisense.js" />
     <Content Include="content\toastr.min.css" />
     <Content Include="Scripts\angular-mocks.js" />
